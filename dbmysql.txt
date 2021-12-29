@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', #databases type :sqllite3 / mysql /postgresql --> ={'default' :}
+        'NAME': 'mydb', # Database name that u create in myphpadmin 
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html> {% load static %}
+
+<html style="font-size: 16px;">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>TEMP SENSOR</title>
+    <link rel="stylesheet" href="{% static 'nicepage.css'%}" media="screen">
+    <link rel="stylesheet" href="{% static 'TEMP-SENSOR.css'%}" media="screen">
+    <link rel="icon" href="{% static 'weather_icon.png' %}" type="image/x-icon">
+    <script class="u-script" type="text/javascript" src="{% static 'jquery.js'%}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'nicepage.js'%}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.1.0, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": ""
+        }
+    </script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="TEMP SENSOR">
+    <meta property="og:type" content="website">
+</head>
+
+<body class="u-body" style="color: rgb(0, 217, 255)">
+
+    <video autoplay muted loop id="myVideo">
+        <source src="{%static 'server.mp4'%}" autoplaytype="video/mp4">
+       
+      </video>
+
+    <header class="u-clearfix u-header u-header" id="sec-1005">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="">
+                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+                    <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                        href="#">
+                        <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+                                </symbol>
+                                </defs></svg>
+                    </a>
+                </div>
+                <div class="u-custom-menu u-nav-container">
+                    <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
+                        <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-server-with-arduino-ide/"
+                                style="padding: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.4);" target="_blank">TEMP SENSOR</a>
+                        </li>
+                        <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="mailto:anouar_-_harrou@outlook.fr" style="color:white;padding: 10px; text-shadow: 2px 2px 8px rgba(4, 217, 255, 0.938);">About us</a>
+                        </li>
+                        <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="{% url 'tutorial'%}" style="color:white;padding: 10px; text-shadow: 2px 2px 8px rgba(4, 217, 255, 0.938);"
+                                target="_blank">About Project</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="u-custom-menu u-nav-container-collapse">
+                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                        <div class="u-inner-container-layout u-sidenav-overflow">
+                            <div class="u-menu-close"></div>
+                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-server-with-arduino-ide/" style="padding: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.4);" target="_blank">TEMP SENSOR</a>
+                                </li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="mailto:anouar_-_harrou@outlook.fr" style="color:white;padding: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.4);">About us</a>
+                                </li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'tutorial'%}" style="padding: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.4);" target="_blank">About Project</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-0ac0">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-table u-table-responsive u-table-1" style="height:500px; overflow:scroll;">
+                <table class="u-table-entity u-table-entity-1">
+                    <colgroup>
+                        <col width="33.3%">
+                        <col width="33.3%">
+                        <col width="33.3%">
+                        <col width="33.3%">
+                    </colgroup>
+                    <thead class="u-palette-4-base u-table-header u-table-header-1">
+                        <tr style="height: 49px;">
+                            <th class="u-border-1 u-border-palette-4-base u-table-cell">ID </th>
+                            <th class="u-border-1 u-border-palette-4-base u-table-cell">Tempurature</th>
+                            <th class="u-border-1 u-border-palette-4-base u-table-cell">Humidity </th>
+                            <th class="u-border-1 u-border-palette-4-base u-table-cell">Date:Heure </th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="u-table-body">
+                        {% for i in tab %}
+                        <tr style="height: 75px;">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell">{{i.id}}</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell">{{i.temp}}</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell">{{i.hum}}</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell">{{i.dt}}</td>
+                        </tr>
+
+                        {%endfor%}
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <canvas id="myAreaChart" width="100%" height="60"></canvas>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-92cf">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1"> This Project was developed By ANOUAR HARROU dedicated to Our Teacher Ali El Moussati..</p>
+        </div>
+    </footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+        <a class="u-link" href="" target="_blank">
+            <span>Application</span>
+        </a>
+        <p class="u-text">
+            <span>created By</span>
+        </p>
+        <a class="u-link" href="" target="_blank">
+            <span>Anouar Harrou </span>
+        </a>.
+    </section>
+
+    <script>
+        const dates = [{ %
+                for i in tab %
+            }
+            '{{i.dt}}', { % endfor %
+            }
+        ];
+        const datas = [{ %
+                for i in tab %
+            }
+            '{{i.hum}}', { % endfor %
+            }
+        ];
+        var ctx = document.getElementById('myAreaChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: dates,
+                scaleShowLabels: false,
+                datasets: [{
+                    label: 'humidité',
+                    data: datas,
+                    borderColor: [
+                        'rgba(0,0,2,1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>

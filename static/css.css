@@ -1,0 +1,62 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: -1;
+}
+
+#myBtn {
+    position: fixed !important;
+    right: 1%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #90b4d6;
+    color: black;
+    font-size: 9px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(115, 192, 197, 0.986);
+}
+
+#myBtn:hover {
+    background: rgba(115, 192, 197, 0.986);
+    color: black;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #myVideo {
+        display: none;
+    }
+}
+
+legend {
+    background-color: #000000c0;
+    color: rgb(255, 255, 255);
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+}
