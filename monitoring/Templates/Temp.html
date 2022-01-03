@@ -74,11 +74,11 @@
     </script>
     <!--Html table to chart-->
     <script>
-        const dates = [{ %
-                for i in tab %
-            }
-            '{{i.dt}}', { % endfor %
-            }
+        const dates = { %
+            for i in tab %
+        }
+        '{{i.dt}}', { % endfor %
+        }
         ];
         const datas = [{ %
                 for i in tab %
