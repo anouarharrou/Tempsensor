@@ -30,7 +30,7 @@ typing-extensions = "==3.10.0.2"
 urllib3 = "==1.26.7"
 yarl = "==1.7.2"
 zipp = "==3.6.0"
-Django = "==3.2.8"
+Django = "==3.2.20"
 Markdown = "==3.3.4"
 
 [dev-packages]
